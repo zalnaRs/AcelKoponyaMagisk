@@ -1,7 +1,5 @@
-# Fluent Emoji Magisk Module
+# Acél Koponya Magisk Module
 
-This is a Magisk module that replaces your Android system emojis with FluentUI Emojis systemlessly.
+This is a Magisk module that replaces your Android skull emoji with Acél Koponya emoji systemlessly.
 
-Fluent Emoji are a collection of familiar, friendly, and modern emoji from Microsoft.
-
-![Fluent Emoji](readme_banner.webp)
+![Acél Koponya emoji](readme_banner.webp)
