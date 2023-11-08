@@ -123,7 +123,7 @@ REPLACE="
 
 print_modname() {
   ui_print "*******************************"
-  ui_print "         Fluent Emojis         "
+  ui_print "          Acel Koponya         "
   ui_print "*******************************"
 }
 
@@ -133,7 +133,7 @@ on_install() {
   # The following is the default implementation: extract $ZIPFILE/system to $MODPATH
   # Extend/change the logic to whatever you want
   ui_print "- Extracting module files"
-  unzip -o "$ZIPFILE" 'system/fonts/fluent.ttf' -d $MODPATH >&2
+  unzip -o "$ZIPFILE" 'system/fonts/acelkoponya.ttf' -d $MODPATH >&2
 
   ui_print "- Searching in fonts.xml"
   [[ -d /sbin/.core/mirror ]] && MIRRORPATH=/sbin/.core/mirror || unset MIRRORPATH
@@ -142,7 +142,7 @@ on_install() {
   for i in $FILENAME
   do
     ui_print "- Copying fonts files to $i"
-    cp -f $MODPATH/system/fonts/fluent.ttf $MODPATH/system/fonts/$i
+    cp -f $MODPATH/system/fonts/acelkoponya.ttf $MODPATH/system/fonts/$i
   done
 }
 
